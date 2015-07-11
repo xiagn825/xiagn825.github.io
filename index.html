@@ -1,11 +1,30 @@
 ---
 layout: default
-title: 我的Blog
 ---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+
+{% for post in paginator.posts %}
+<div class="article-wrapper">
+    {% if site.share_buttons %}
+    <article>
+    {% else %}
+    <article>
+    {% endif %}
+    {% include article-header.html page=post link=true %}
+        <section class="post-content">
+            {% assign size = post.content | split: site.excerpt_separator | size %}
+            {% if size > 1 %}
+            {{ post.excerpt }}
+            <a class="btn" href="{{ post.url | prepend: site.baseurl }}">{{ site.str_read_more }}</a>
+            {% else %}
+            {{ post.content }}
+            {% endif %}
+        </section>
+    </article>
+</div>
+
+{% if forloop.last != true %}
+<hr/>
+{% endif %}
+{% endfor %}
+
+{% include paginator.html %}
