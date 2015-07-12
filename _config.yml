@@ -1,8 +1,7 @@
 #
 # Basic settings.
 #
-#url: http://xiagn.github.io
-url: http://localhost:4000
+url: http://xiagn.github.io
 baseurl: "" # or ""
 title: 每天进步一点点
 description: 努力每天进步一点点
