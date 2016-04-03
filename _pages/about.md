@@ -5,10 +5,6 @@ permalink: /about/
 order: 1
 share: false
 ---
-<h1 style="text-align:center">个人简历</h1>
-
-***
-
 
 # 个人信息
 
@@ -18,11 +14,6 @@ share: false
 * 手机：13500734712
 * Email：xiagn825@gmail.com
 * QQ:409604148
-* 期望工作地点：上海
-* 期望职位：JAVA工程师或PMO项目经理
-* 期望薪资：25K左右
-
-***
 
 #技能清单
 
@@ -56,7 +47,7 @@ share: false
 	* 后端：springMvc+spring+hibernate
 	* 服务间通信：dubbo
 	* 调度工具：zookeeper
-	* 异步队列：rocketMq
+	* 异步队列：ActiveMq
 	* 数据库：mysql
 	* 缓存：memcache,redis
 	* 前端：requireJS+kendoUI+AngularJS
