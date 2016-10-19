@@ -19,3 +19,8 @@ share: false
 	git config --global core.quotepath false 
 		
 ---
+
+#### Q:linux下的sublime不能输入中文
+#### A:https://github.com/lyfeyaj/sublime-text-imfix
+
+---
