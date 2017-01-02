@@ -21,6 +21,15 @@ share: false
 ---
 
 #### Q:linux下的sublime不能输入中文
+
 #### A:https://github.com/lyfeyaj/sublime-text-imfix
 
 ---
+
+#### Q:JAVA 内存溢出Dump参数
+
+#### A: -XX:+HeapDumpOnOutOfMemoryError
+
+---
+
+

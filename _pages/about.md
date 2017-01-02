@@ -1,10 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
-order: 1
-share: false
----
+<center><h1  style="text-align:center">个人简历</h1></center>
 
 # 个人信息
 
@@ -19,20 +13,59 @@ share: false
 
 * 开发语言：JAVA/JavaScript/SQL
 * 开发框架：
-	* 后端：SpringMVC/Spring/Hibernate/MyBatis/NodeJS
-	* 前端：Jquery/underscore/KendoUI/AngularJS/EXTJS* 服务器：tomcat/nginx/websphere* 数据库：ORACLE/MYSQL/MSSQL/mongoDB* 构建部署工具：maven/gradle/grunt/Jenkins/bower* 版本控制工具：GIT/SVN/RTC* 测试工具：JUNIT/DBUNIT/QUNIT
+	* 后端：SpringMVC/Spring/Hibernate/MyBatis/NodeJSP
+	* 前端：Jquery/underscore/KendoUI/AngularJS/EXTJS
+* 服务器：tomcat/nginx/websphere
+* 数据库：ORACLE/MYSQL/MSSQL/mongoDB
+* 构建部署工具：maven/gradle/grunt/Jenkins/bower
+* 版本控制工具：GIT/SVN/RTC
+* 测试工具：JUNIT/DBUNIT/QUNIT
 
 ***
 
 #自我介绍
 
-* 2年的国内互联网产品开发，6年的企业级项目开发（半年的在日现地开发经验）。* 3年的团队管理经验，执行力，质量意识，产品意识强.* 喜欢学习新技术,对工作积极主动,认真负责,充满激情,乐于接受挑战。
+* 2年的国内互联网产品开发，6年的企业级项目开发（半年的在日现地开发经验）。
+* 3年的团队管理经验，执行力，质量意识，产品意识强.
+* 喜欢学习新技术,对工作积极主动,认真负责,充满激情,乐于接受挑战。
 
 ***
 
 # 工作经历
 
-## 美丽说 （2015/01-至今）
+## 途牛旅行网 （2016/05-至今）
+
+* 职位：研发经理
+* 下属人数：7
+
+### 后台业务系统（订单+产品+资源+库存）
+
+* 业务背景：
+	
+	途牛后台核心业务系统，记录旅游资源从采购到包装再到贩卖的全部过程
+	
+* 主要技术：
+	* 后端：springMvc+spring+hibernate
+	* 工作流：activiti
+	* 异步队列：ActiveMq
+	* 数据库：mysql
+	* 缓存：memcache,redis
+	* 前端：jquery
+	
+* 主要职责：
+	* 途牛后台业务系统中邮轮相关部分的维护和升级
+		1. 解决内部业务人员在系统使用中的遇到的问题
+		2. 对不合理的老流程进行改善
+		3. 为邮轮前台改造提供接口和数据支持
+		4. 配合其他依赖系统升级接口
+		5. 学习总结邮轮业务的特性为系统整体升级做准备
+	*  前端邮轮频道改造业务分析和项目实施监控
+		1. 和产品经理一起制定优化方案
+		2. 方案确定后对研发的具体实施进行计划和成果追踪
+
+***
+
+## 美丽说 （2015/01-2016/05）
 
 * 职位：JAVA工程师－前端团队leader
 * 下属人数：5
