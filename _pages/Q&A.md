@@ -32,4 +32,8 @@ share: false
 
 ---
 
+#### Q:git修改最近一次提交的author信息
+
+#### A:git commit –amend –author=<user-email>
+
 
