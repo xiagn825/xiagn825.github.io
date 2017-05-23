@@ -20,20 +20,48 @@ share: false
 		
 ---
 
-#### Q:linux下的sublime不能输入中文
+#### Q: linux下的sublime不能输入中文
 
-#### A:https://github.com/lyfeyaj/sublime-text-imfix
+#### A: https://github.com/lyfeyaj/sublime-text-imfix
 
 ---
 
-#### Q:JAVA 内存溢出Dump参数
+#### Q: JAVA 内存溢出Dump参数
 
 #### A: -XX:+HeapDumpOnOutOfMemoryError
 
 ---
 
-#### Q:git修改最近一次提交的author信息
+#### Q: git修改最近一次提交的author信息
 
-#### A:git commit –amend –author=<user-email>
+#### A: git commit –amend –author=<user-email>
+
+----
+
+#### Q: mac/linux中vim永久显示行号、开启语法高亮
+
+#### A: STEP1 cp /usr/share/vim/vimrc ~/.vimrc 先复制一份vim配置模板到个人目录下
+
+#### STEP2  vi ~/.vimrc 加入 syntax on set nu!
+
+----
+
+#### Q: spring-boot debug启动jar文件
+
+#### A: java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar jar文件
+
+----
+
+#### Q: mysql修改datetime时间格式, 统一减n小时的方法 
+
+#### A: UPDATE auth_user SET `date_joined`=DATE_FORMAT(ADDDATE(`date_joined`, interval -n hour),'%Y-%m-%d %H:%i:%s');
+
+----
+
+#### Q: git: Your branch and 'origin/master' have diverged
+
+#### A: git fetch origin
+#### git reset --hard origin/master
+ 
 
 
