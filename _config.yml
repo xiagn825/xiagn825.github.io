@@ -77,8 +77,9 @@ ogp:
 #
 # Gems.
 #
-gems:
+plugins:
   - jemoji
+  - jekyll-paginate
 
 #
 # Styles: see "_sass/base/_variables.scss"
